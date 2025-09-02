@@ -8,7 +8,7 @@ const ebGaramond = EB_Garamond({
 
 export default function Home() {
   return (
-    <div className="flex justify-center mt-24">
+    <div className="flex justify-center my-24">
       <main className="max-w-7xl">
 
         <div className="flex space-x-8">
@@ -22,7 +22,7 @@ export default function Home() {
           />
           <div>
             <h1 className={`text-4xl ${ebGaramond.variable}`}>Hello!</h1> {/* todo: the font does not work */}
-            <p className="text-lg">I am <a href="/about" className="text-pink-600 hover:text-pink-800">Sara</a>, <br />a designer/<br />UX-designer<br />based in Oslo.</p>
+            <p className="text-lg">I am <a href="/about" className="text-pink-600 hover:text-pink-800">Sara</a>, <br />a UX-designer<br />based in Oslo.</p>
           </div>
         </div>
 
