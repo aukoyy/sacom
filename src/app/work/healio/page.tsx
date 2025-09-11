@@ -30,7 +30,7 @@ const HealioPortfolioPage = () => (
     <div className="my-4">
       <Image src="/healio-challenges.png" alt="Healio Challenges" width={800} height={450} />
     </div>
-    <p>We created an information architecture and user flow for Healio’s onboarding. This ensured clear navigation, prioritized key features, and gave users a smooth start before moving into prototypes.</p>
+    <p>We created an information architecture and user flow for Healio's onboarding. This ensured clear navigation, prioritized key features, and gave users a smooth start before moving into prototypes.</p>
     <div className="my-4">
       <Image src="/healio-userflow.png" alt="Healio User Flow" width={800} height={450} />
     </div>

@@ -54,7 +54,7 @@ export default function Home() {
               priority
             />
             <div className="flex justify-between mt-2">
-              <h2 className="text-2xl">Healio Scene</h2>
+              <h2 className="text-2xl">Healio App</h2>
               <a className="text-pink-600  rounded hover:text-pink-800" href="/work/healio">View project</a>
             </div>
           </div>
