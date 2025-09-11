@@ -28,20 +28,38 @@ export default function Home() {
 
 
         <h2 className="text-3xl mt-24 text-gray-600">Work</h2>
-        <section className="mt-8">
-          <Image
-            className="dark:invert"
-            src="/moveIt-app.png"
-            alt="MoveIt App"
-            width={360}
-            height={150}
-            priority
-          />
-          <div className="flex justify-between mt-2">
-            <h2 className="text-2xl">MoveIt App</h2>
-            <a className="text-pink-600  rounded hover:text-pink-800" href="/work/moveIt">View project</a>
+        <section className="mt-8 space-y-12">
+          <div>
+            <Image
+              className="dark:invert"
+              src="/moveIt-app.png"
+              alt="MoveIt App"
+              width={360}
+              height={150}
+              priority
+            />
+            <div className="flex justify-between mt-2">
+              <h2 className="text-2xl">MoveIt App</h2>
+              <a className="text-pink-600  rounded hover:text-pink-800" href="/work/moveIt">View project</a>
+            </div>
+          </div>
+
+          <div>
+            <Image
+              className="dark:invert"
+              src="/healio/scene.png"
+              alt="Healio Scene"
+              width={360}
+              height={150}
+              priority
+            />
+            <div className="flex justify-between mt-2">
+              <h2 className="text-2xl">Healio Scene</h2>
+              <a className="text-pink-600  rounded hover:text-pink-800" href="/work/healio">View project</a>
+            </div>
           </div>
         </section>
+
       </main>
     </div>
   );
