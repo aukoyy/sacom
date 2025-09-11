@@ -25,7 +25,7 @@ const HealioPortfolioPage = () => (
     <h2 className="text-lg font-bold mt-8">The Process</h2>
     <p>We used the <strong>Design Thinking Process</strong>, starting with a detailed persona, “Chris Harper”, a 37-year-old designer and former competitive swimmer recovering from shoulder surgery.</p>
     <div className="my-4">
-      <Image src="/healio/Haelio.png" alt="Persona Chris Harper" width={800} height={450} />
+      <Image src="/healio/Under the process.png" alt="Persona Chris Harper" width={800} height={450} />
     </div>
     <p>His frustrations with tracking exercises and uncertainty about progress shaped our design challenges.</p>
     <div className="my-4">
