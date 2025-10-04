@@ -13,7 +13,6 @@ export default function Home() {
 
         <div className="flex space-x-8">
           <Image
-            className="dark:invert"
             src="/notion-avatar.svg"
             alt="Avatar of Sara"
             width={180}
@@ -31,7 +30,6 @@ export default function Home() {
         <section className="mt-8 space-y-12">
           <div>
             <Image
-              className="dark:invert"
               src="/moveIt-app.png"
               alt="MoveIt App"
               width={360}
@@ -46,7 +44,6 @@ export default function Home() {
 
           <div>
             <Image
-              className="dark:invert"
               src="/healio/scene.png"
               alt="Healio Scene"
               width={360}
