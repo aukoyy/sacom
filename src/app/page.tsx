@@ -8,7 +8,7 @@ const ebGaramond = EB_Garamond({
 
 export default function Home() {
   return (
-    <div className="flex justify-center my-24">
+    <div className="flex justify-center my-24 px-4">
       <main className="max-w-7xl">
 
         <div className="flex space-x-8">
@@ -30,9 +30,10 @@ export default function Home() {
         <section className="mt-8 space-y-12">
           <div>
             <Image
-              src="/moveIt-app.png"
+              className="rounded-lg"
+              src="/moveIt/smartwatch.png"
               alt="MoveIt App"
-              width={360}
+              width={600}
               height={150}
               priority
             />
@@ -44,9 +45,10 @@ export default function Home() {
 
           <div>
             <Image
+              className="rounded-lg"
               src="/healio/scene.png"
               alt="Healio Scene"
-              width={360}
+              width={600}
               height={150}
               priority
             />

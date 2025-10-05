@@ -10,7 +10,8 @@ export default function Contact() {
             <div className="space-y-2 text-lg mt-8">
               <p>sara.aukner@gmail.com</p>
               <p>+47 465 44 628</p>
-              <p className="text-pink-600 hover:text-pink-800"><a href="https://www.linkedin.com/in/saaraat/" target="_blank" rel="noopener noreferrer">LinkedIn: Sara Aukner</a></p>
+              <p className="text-pink-600 hover:text-pink-800 space-x-1"><a href="https://www.linkedin.com/in/saaraat/" target="_blank" rel="noopener noreferrer">LinkedIn: Sara Aukner</a><span>&#8599;</span>
+              </p>
             </div>
           </div>
         </div>

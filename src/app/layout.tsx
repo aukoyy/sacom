@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const Nav = () => {
   return (
     <nav className="flex flex-col md:flex-row md:justify-around items-center">
-      <span><a href="/"><Image src="/sarah_maxwell.svg" alt="" width={220} height={220} priority className="" /></a></span>
+      <span><a href="/"><Image src="/logo-portfolio.png" alt="" width={220} height={220} priority className="" /></a></span>
       <ul className="flex space-x-16 text-2xl">
         <li>
           <a href="/about">
