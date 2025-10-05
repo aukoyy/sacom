@@ -11,7 +11,7 @@ export default function Home() {
     <div className="flex justify-center my-24 px-4">
       <main className="max-w-7xl">
 
-        <div className="flex space-x-8">
+        <div className="flex space-x-8 justify-center items-center">
           <Image
             src="/notion-avatar.svg"
             alt="Avatar of Sara"
@@ -50,7 +50,6 @@ export default function Home() {
               alt="Healio Scene"
               width={600}
               height={150}
-              priority
             />
             <div className="flex justify-between mt-2">
               <h2 className="text-2xl">Healio App</h2>
