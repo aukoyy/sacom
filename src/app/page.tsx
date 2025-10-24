@@ -21,7 +21,7 @@ export default function Home() {
           />
           <div>
             <h1 className={`text-4xl ${ebGaramond.variable}`}>Hello!</h1> {/* todo: the font does not work */}
-            <p className="text-lg">I am <a href="/about" className="text-pink-600 hover:text-pink-800">Sara</a>, <br />a UX-designer<br />based in Oslo.</p>
+            <p className="text-lg">I am <a href="/about" className="text-pink-600 hover:text-pink-800">Sara</a>, <br />a UX-designer<br />based in Oslo</p>
           </div>
         </div>
 
