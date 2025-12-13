@@ -1,7 +1,9 @@
+
+
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Image from "next/image";
+import { Nav } from "@/components/Nav";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,26 +19,6 @@ export const metadata: Metadata = {
   title: "Sara Aukner",
   description: "Saras portfolio site",
 };
-
-const Nav = () => {
-  return (
-    <nav className="flex flex-col md:flex-row md:justify-around items-center">
-      <span><a href="/"><Image src="/logo-portfolio.png" alt="" width={220} height={220} priority className="" /></a></span>
-      <ul className="flex space-x-16 text-2xl">
-        <li>
-          <a href="/about">
-            About
-          </a>
-        </li>
-        <li>
-          <a href="/contact">
-            Contact
-          </a>
-        </li>
-      </ul>
-    </nav>
-  )
-}
 
 export default function RootLayout({
   children,
