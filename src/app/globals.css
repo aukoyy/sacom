@@ -1,2 +1,14 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
+
+@layer components {
+  .link {
+    @apply text-pink-600 hover:text-pink-800;
+  }
+}
+
+@layer components {
+  .link-hover {
+    @apply hover:text-pink-800;
+  }
+}

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -25,8 +26,9 @@ export default function About() {
             <section className="mt-12 space-y-8">
               <div>
                 <h2 className="text-2xl font-semibold mb-2">Contact</h2>
-                <p>Let's connect on <a href="https://www.linkedin.com/in/saaraat/" target="_blank" rel="noopener noreferrer" className="text-pink-600 hover:text-pink-800">LinkedIn</a></p>
-                <p>Or e-mail: <span className="text-pink-600">sara.aukner@gmail.com</span></p>
+                Go to contact page <Link href="/contact" className="text-pink-600 hover:text-pink-800">here</Link>.
+                {/* <p>Let's connect on <a href="https://www.linkedin.com/in/saaraat/" target="_blank" rel="noopener noreferrer" className="text-pink-600 hover:text-pink-800">LinkedIn</a></p>
+                <p>Or e-mail: <span className="text-pink-600">sara.aukner@gmail.com</span></p> */}
               </div>
               <div>
                 <h2 className="text-2xl font-semibold mb-2">Education</h2>
