@@ -28,7 +28,7 @@ export default function Home() {
 
         <h2 className="text-3xl mt-24 text-gray-600">Work</h2>
         <section className="mt-8 space-y-12">
-          <div>
+          {/* <div>
             <Image
               className="rounded-lg"
               src="/hverdagshelten/cover-photo.png"
@@ -41,7 +41,8 @@ export default function Home() {
               <h2 className="text-2xl">Hverdagshelten App</h2>
               <a className="text-pink-600  rounded hover:text-pink-800" href="/work/hverdagshelten">View project</a>
             </div>
-          </div>
+          </div> */}
+
           <div>
             <Image
               className="rounded-lg"
