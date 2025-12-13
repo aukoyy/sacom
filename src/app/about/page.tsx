@@ -50,7 +50,14 @@ export default function About() {
               </div>
               <div>
                 <h2 className="text-2xl font-semibold mb-2">Skills</h2>
-                <p>Microsoft Office<br />Figma<br />Figjam<br />Canva<br />Google Sheets<br />Lightroom</p>
+                <ul className="space-y-1 list-disc list-inside">
+                  <li>Microsoft Office</li>
+                  <li>Figma</li>
+                  <li>Figjam</li>
+                  <li>Canva</li>
+                  <li>Google Sheets</li>
+                  <li>Lightroom</li>
+                </ul>
               </div>
             </section>
           </div>
