@@ -31,6 +31,20 @@ export default function Home() {
           <div>
             <Image
               className="rounded-lg"
+              src="/hverdagshelten/cover-photo.png"
+              alt="Hverdagshelten App"
+              width={600}
+              height={150}
+              priority
+            />
+            <div className="flex justify-between mt-2">
+              <h2 className="text-2xl">Hverdagshelten App</h2>
+              <a className="text-pink-600  rounded hover:text-pink-800" href="/work/hverdagshelten">View project</a>
+            </div>
+          </div>
+          <div>
+            <Image
+              className="rounded-lg"
               src="/moveIt/smartwatch.png"
               alt="MoveIt App"
               width={600}
